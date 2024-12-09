@@ -11,7 +11,7 @@
 
     android:padding="8dp">
 
-    <VideoView
+    <ImageView
         android:id="@+id/banner3Image"
         android:layout_width="match_parent"
         android:layout_height="166dp"
