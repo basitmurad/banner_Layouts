@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/banner_back"
+
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        >
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:id="@+id/banner4Image"
+            android:src="@drawable/icon4"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ad_back"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:text="AD"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:textStyle="bold"
+                    android:text="Title - Max 25 \ncharacters"
+                    android:textColor="@color/black"
+
+                    android:layout_marginBottom="8dp"
+                  />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:paddingEnd="12dp"
+
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    android:textColor="#838383"
+                    android:textSize="12dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/banner4BtnClick"
+        android:layout_width="match_parent"
+        android:background="@drawable/banner_back"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/buttonColor"
+        android:layout_height="36dp"
+        android:text="Try Now"
+
+        android:textStyle="bold"
+
+
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>

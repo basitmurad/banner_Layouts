@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/banner_back"
+
+    android:orientation="horizontal"
+
+
+    android:padding="8dp">
+
+    <VideoView
+        android:id="@+id/banner3Image"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/banner3BtnClick"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp"
+
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/banner_back"
+            android:backgroundTint="@color/buttonColor"
+            android:text="Button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnCLick"
+                app:layout_constraintStart_toEndOf="@+id/imgBanner"
+                app:layout_constraintTop_toTopOf="parent"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ad_back"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:text="AD"
+                            android:textColor="@color/white"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/banner3Title"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Title - Max 25 characters"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/banner2Subtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+
+                        android:maxLines="4"
+                        android:paddingEnd="12dp"
+
+                        android:text="consec do didunt ut labore et dolt dolore magna aliqut dolore magna aliquore magna aliqua."
+                        android:textColor="#838383"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
