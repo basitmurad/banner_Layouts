@@ -24,7 +24,7 @@
 
 
 
-        <ImageView
+        <VideoView
             android:layout_width="match_parent"
             android:layout_height="146dp"
             android:id="@+id/banner4Image"
@@ -37,7 +37,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginTop="12dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -46,17 +45,17 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/ad_back"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ad_back2"
+                        android:gravity="center_vertical"
                         android:paddingStart="8dp"
                         android:paddingEnd="8dp"
-                        android:textAlignment="center"
-                        android:gravity="center"
                         android:text="AD"
-                        android:textSize="12sp"
-                        android:textColor="@color/white"
 
-                        android:textStyle="bold" />
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        tools:ignore="RtlCompat" />
 
 
                 </LinearLayout>
