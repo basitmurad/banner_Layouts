@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_margin="8dp"
     android:orientation="vertical"
     android:background="@drawable/banner_back"
@@ -17,7 +17,7 @@
         android:layout_height="186dp"
         android:id="@+id/banner6Image"
 android:src="@drawable/icon6"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="54dp"
         android:layout_marginStart="34dp"
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="4dp"
@@ -28,7 +28,7 @@ android:src="@drawable/icon6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="89dp"
         android:layout_marginBottom="50dp"
         android:textSize="14sp"
         android:textAlignment="center"
@@ -44,7 +44,9 @@ android:src="@drawable/icon6"
 
         android:src="@drawable/baseline_arrow_forward_ios_24"
         android:layout_gravity="center"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginBottom="100dp"
         />
 
     <LinearLayout
@@ -56,15 +58,6 @@ android:src="@drawable/icon6"
         android:layout_marginBottom="4dp"
         >
 
-        <ImageView
-            android:id="@+id/imgBanner"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/icon66"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
 
 
@@ -100,7 +93,7 @@ android:src="@drawable/icon6"
                 android:layout_height="wrap_content"
 
                 android:ellipsize="end"
-                android:text="Title - Max 25 characters"
+                android:text="Test Ad : Musica"
                 android:textColor="@color/black"
 
                 />
@@ -109,7 +102,7 @@ android:src="@drawable/icon6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:maxLines="2"
+                android:maxLines="1"
                 android:paddingEnd="12dp"
 
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -131,7 +124,7 @@ android:src="@drawable/icon6"
         android:textColor="@color/white"
         android:backgroundTint="@color/buttonColor"
         android:layout_height="36dp"
-        android:text="Install"
+        android:text="Abrir"
 
         android:textStyle="bold"
 
